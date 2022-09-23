@@ -11,6 +11,26 @@ export default function SignUp() {
       <div className="col-md-10 mx-auto col-lg-5">
         <form className="p-4 p-md-5 border rounded-3 bg-light">
           <div className="form-floating mb-3">
+            <input type="text" className="form-control" id="floatingInput" placeholder="John" />
+            <label for="floatingInput">First Name</label>
+          </div>
+          <div className="form-floating mb-3">
+            <input type="text" className="form-control" id="floatingInput" placeholder="Doe" />
+            <label for="floatingInput">Last Name</label>
+          </div>
+          <div className="form-floating mb-3">
+            <input type="text" className="form-control" id="floatingInput" placeholder="Doe" />
+            <label for="floatingInput">Job</label>
+          </div>
+          <div className="form-floating mb-3">
+            <input type="number" className="form-control" id="floatingInput" placeholder="Doe" />
+            <label for="floatingInput">Age</label>
+          </div>
+          <div className="form-floating mb-3">
+            <input type="text" className="form-control" id="floatingInput" placeholder="Doe" />
+            <label for="floatingInput">Code Name</label>
+          </div>
+          <div className="form-floating mb-3">
             <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
             <label for="floatingInput">Email address</label>
           </div>
