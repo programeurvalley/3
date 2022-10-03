@@ -1,8 +1,52 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useState , useEffect } from 'react'
+import { BsFileX } from 'react-icons/bs'
 
 export default function Testomonials() {
-  return (
+    const myStyle = {
+        display : "flex",
+        margin : "5px"
+    }
+
+    const [response , setPersonne] = useState({})
+    // const [post , setPost] = useState([])
+
+    useEffect(() => {
+        getPersonne();
+    },[])
+
+    
+    const getPersonne = () => {
+        fetch(`https://my-json-server.typicode.com/Walid-Berrouk/fake-server-json/profiles`)
+        // Handle success
+        .then(response => response.json())  // convert to json
+        .then(response => setPersonne(response))    //print data to console
+        .catch(err => console.log('Request Failed', err)); // Catch errors
+    }
+
+
+    let arr =[];
+
+    for(let i = 0 ; i<response.length ; i++){
+        arr[i] = i;
+    }
+
+    console.log(arr)
+
+    const divSender = arr.map(e => <div key={e} className="card shadow-sm" style={myStyle} >
+    <div className="card-body">
+    <h1 className='card-title'>{response[e].firstname + " " + response[e].lastname}</h1>
+    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. It Will contain our testimonil content</p>
+    <Link to={`/main/home/${e}`} class="btn btn-primary">Go somewhere</Link>
+    <div className="d-flex justify-content-end align-items-center">
+        <small className="text-muted">9 mins</small>
+    </div>
+    </div>
+</div>)
+
+
+    return (
     <>
         <section className="py-5 text-center container">
             <div className="row py-lg-5">
@@ -18,10 +62,10 @@ export default function Testomonials() {
         </section>
         <div className="album py-5 bg-light">
             <div className="container">
-
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <div className="col">
-                    <div className="card shadow-sm">
+            <div className="row" >
+                <div className="col" style={myStyle} >
+                    {divSender}
+                    {/*<div className="card shadow-sm">
                         <div className="card-body">
                         <h1 className='card-title'>Jeph Star</h1>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. It Will contain our testimonil content</p>
@@ -30,7 +74,7 @@ export default function Testomonials() {
                             <small className="text-muted">9 mins</small>
                         </div>
                         </div>
-                    </div>
+    </div>*/}
                 </div>
             </div>
             </div>

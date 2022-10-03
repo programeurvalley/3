@@ -1,0 +1,14 @@
+{
+  "profiles": [
+    {
+      "firstname": "Abderrahmane",
+      "lastname": "BADA",
+      "job": "Hacker",
+      "age": "21",
+      "codeName": "Hawkeye",
+      "email": "hawkeye@gmail.com",
+      "password": "azerty",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "hero": {
+    "title": "Border hero with cropped image and shadows",
+    "description": "Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins."
+  },
+  "features": [
+    {
+      "id": 0,
+      "title": "Featured title",
+      "description": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+      "link": "#"
+    },
+    {
+      "id": 1,
+      "title": "Featured title",
+      "description": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Featured title",
+      "description": "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+      "link": "#"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 0,
+      "author": "Jeph Star",
+      "author_id": 0,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "9 min"
+    },
+    {
+      "id": 1,
+      "author": "Walid Berrouk",
+      "author_id": 1,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "15 min"
+    },
+    {
+      "id": 2,
+      "author": "Akram Moussaoui",
+      "author_id": 2,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "27 min"
+    },
+    {
+      "id": 3,
+      "author": "Akram Moussaoui",
+      "author_id": 2,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "1 h"
+    },
+    {
+      "id": 4,
+      "author": "Akram Moussaoui",
+      "author_id": 2,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "2 h"
+    },
+    {
+      "id": 5,
+      "author": "Jeph Star",
+      "author_id": 0,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "2 days"
+    },
+    {
+      "id": 6,
+      "author": "Jeph Star",
+      "author_id": 0,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "3 weeks"
+    },
+    {
+      "id": 7,
+      "author": "Walid Berrouk",
+      "author_id": 1,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "5 weeks"
+    },
+    {
+      "id": 8,
+      "author": "Norhane Atia",
+      "author_id": 3,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "9 weeks"
+    },
+    {
+      "id": 9,
+      "author": "Aaron Nerox",
+      "author_id": 4,
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus ex deleniti quia! Dolorem, pariatur. Itaque ipsum dicta dolorum, eum sed beatae, ducimus debitis quia, ipsa hic iure velit quae possimus perferendis recusandae at atque ut corrupti cum blanditiis incidunt!",
+      "time": "2 months"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 0,
+      "firstname": "Jeph",
+      "lastname": "Star",
+      "job": "Web Developer",
+      "age": 24,
+      "codeName": "Alkalan",
+      "email": "jeph-star@gmail.com",
+      "password": "kal45"
+    },
+    {
+      "id": 1,
+      "firstname": "Walid",
+      "lastname": "Berrouk",
+      "job": "GoMyCode Instructor",
+      "age": 24,
+      "codeName": "Rivench",
+      "email": "wharrywalid@gmail.com",
+      "password": "not78"
+    },
+    {
+      "id": 2,
+      "firstname": "Akram",
+      "lastname": "Moussaoui",
+      "job": "GoMyCode Instructor",
+      "age": 24,
+      "codeName": "Lancelot",
+      "email": "akram-ln@gmail.com",
+      "password": "5hjk5"
+    },
+    {
+      "id": 3,
+      "firstname": "Norhane",
+      "lastname": "Atia",
+      "job": "GoMyCode Manager",
+      "age": 27,
+      "codeName": "Mahanja",
+      "email": "norhane-atia@gmail.com",
+      "password": "kolp09"
+    },
+    {
+      "id": 4,
+      "firstname": "Abderrahmane",
+      "lastname": "BADA",
+      "job": "Hacker",
+      "age": "21",
+      "codeName": "Hawkeye",
+      "email": "hawkeye@gmail.com",
+      "password": "azerty"
+    }
+  ],
+  "test": [
+    {
+      "id": 0,
+      "firstName": "Walid",
+      "codeName": "Maverick",
+      "age": 19
+    },
+    {
+      "id": 1,
+      "firstName": "Abdeljalil",
+      "codeName": "Rooster",
+      "age": 19
+    },
+    {
+      "id": 2,
+      "firstName": "Rafik",
+      "codeName": "Payback",
+      "age": 19
+    },
+    {
+      "id": 3,
+      "firstName": "Tarek",
+      "codeName": "Bob",
+      "age": 23
+    },
+    {
+      "id": 4,
+      "firstName": "Racim",
+      "codeName": "IronFist",
+      "age": 20
+    },
+    {
+      "id": 5,
+      "firstName": "Abdrrahmane",
+      "codeName": "Hawkeye",
+      "age": 19
+    },
+    {
+      "id": 6,
+      "firstName": "Chemssedine",
+      "codeName": "Hangman",
+      "age": 19
+    }
+  ]
+}
